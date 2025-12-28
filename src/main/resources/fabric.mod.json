@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "containersearch",
+  "version": "1.1.0",
+  "name": "Container Search Command",
+  "description": "Searches for items in nearby containers.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/nkymz/ContainerSearchCommand"
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.nkymz.containersearchcommand.ContainerSearchCommand"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.4",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
